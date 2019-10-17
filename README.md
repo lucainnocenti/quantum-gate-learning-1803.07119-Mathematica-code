@@ -6,6 +6,10 @@ Mathematica code used to reproduce the analytical results presented in "*Supervi
 # Use
 To use the packages and notebooks in here the [`QM`](https://github.com/lucainnocenti/QM) package is required.
 
+To just use one of the packages, e.g. `QPauliAlgebra.m`, you can import it directly in a notebook without downloading the repo, using something like
+
+    Get["https://raw.githubusercontent.com/lucainnocenti/quantum-gate-learning-1803.07119-Mathematica-code/master/QPauliAlgebra.m"]
+
 ## Packages
 - [`QPauliAlgebra.m`](./QPauliAlgebra.m): Mathematica *package* defining the core functionality to handle symbolic pauli algebras. Here is where functions such as `QPauliExpr` are defined. The notebooks `QPauliAlgebraTests.nb` and `QPauliAlgebraExamples.nb` contain unit tests and usage examples for some of these functions, respectively.
 - [`GateLearning.m`](./GateLearning.m): Mathematica package defining the functions to decompose matrices in the Pauli representation, extract generators as pauli expressions etc. It also contains functions to apply the three conditions shown in the paper.
