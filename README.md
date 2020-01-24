@@ -3,9 +3,9 @@
 Mathematica code used to reproduce the analytical results presented in "*Supervised learning of time-independent Hamiltonians for gate design*" ([arXiv:1803.07119](https://arxiv.org/abs/1803.07119)).
 
 # Use
-To use the packages and notebooks in here the [`QM`](https://github.com/lucainnocenti/QM) package is required.
+The [`QM`](https://github.com/lucainnocenti/QM) package is required to use some of the functionality used here.
 
-To just use one of the packages, e.g. `QPauliAlgebra.m`, you can import it directly in a notebook without downloading the repo, using something like
+You can use most functionality in the packages importing the files as standalone directly from GitHub. For example, to import `QPauliAlgebra.m` in your notebook without installing it, use
 
     Get["https://raw.githubusercontent.com/lucainnocenti/quantum-gate-learning-1803.07119-Mathematica-code/master/QPauliAlgebra.m"]
 
